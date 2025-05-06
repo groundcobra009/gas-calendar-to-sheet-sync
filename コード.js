@@ -20,7 +20,7 @@ function backupCalendarEvents() {
     throw new Error('Calendar not found with the provided ID.');
   }
 
-  // Get the target spreadsheet
+  // Get the target spreadsheet 1
   const spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
   const sheet = spreadsheet.getActiveSheet();
 
